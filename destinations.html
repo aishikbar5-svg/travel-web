@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Destinations | Neo Travel</title>
+    <meta name="description" content="Discover your next adventure among our carefully curated destinations worldwide.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Neo<span>Travel</span></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="destinations.html" class="nav-link active">Destinations</a></li>
+                <li><a href="packages.html" class="nav-link">Packages</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="contact.html" class="btn-book">Book Now</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Explore Destinations</h1>
+            <p>Discover your next adventure among our carefully curated destinations worldwide</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-grid">
+                <div class="filter-group">
+                    <label>Region</label>
+                    <select>
+                        <option value="">All Regions</option>
+                        <option value="asia">Asia</option>
+                        <option value="europe">Europe</option>
+                        <option value="americas">Americas</option>
+                        <option value="africa">Africa</option>
+                        <option value="oceania">Oceania</option>
+                        <option value="middle-east">Middle East</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Price Range</label>
+                    <select>
+                        <option value="">All Prices</option>
+                        <option value="under-1000">Under $1,000</option>
+                        <option value="1000-2000">$1,000 - $2,000</option>
+                        <option value="2000-3000">$2,000 - $3,000</option>
+                        <option value="3000+">$3,000+</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Travel Type</label>
+                    <select>
+                        <option value="">All Types</option>
+                        <option value="beach">Beach</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="cultural">Cultural</option>
+                        <option value="city">City</option>
+                        <option value="nature">Nature</option>
+                        <option value="luxury">Luxury</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Duration</label>
+                    <select>
+                        <option value="">All Durations</option>
+                        <option value="3-5">3-5 days</option>
+                        <option value="6-9">6-9 days</option>
+                        <option value="10-14">10-14 days</option>
+                        <option value="14+">14+ days</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Grid -->
+    <section class="destinations-section">
+        <div class="container">
+            <div class="all-destinations-grid">
+                <!-- Destination 1 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=600" alt="Maldives">
+                        <span class="region-tag">Asia</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Tropical Paradise Escape</h3>
+                        <p class="country">Maldives</p>
+                        <p class="description">Crystal-clear waters, pristine beaches, and luxury overwater villas await in this island paradise.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $1,899</span>
+                            <span class="duration">5-7 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🏝️ Beach</span>
+                            <span>🤿 Snorkeling</span>
+                            <span>🍽️ Fine Dining</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 2 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600" alt="Kyoto, Japan">
+                        <span class="region-tag">Asia</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cultural Journey Through History</h3>
+                        <p class="country">Japan</p>
+                        <p class="description">Ancient temples, traditional tea ceremonies, and stunning cherry blossoms in the heart of Japan.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $2,499</span>
+                            <span class="duration">7-10 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🛕 Temples</span>
+                            <span>🍣 Cuisine</span>
+                            <span>🌸 Nature</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 3 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600" alt="Bali, Indonesia">
+                        <span class="region-tag">Asia</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Island of the Gods</h3>
+                        <p class="country">Indonesia</p>
+                        <p class="description">World-class surfing, lush rice terraces, and spiritual wellness experiences in tropical Bali.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $1,299</span>
+                            <span class="duration">7-14 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🏄 Surfing</span>
+                            <span>🛵 Exploration</span>
+                            <span>🧘 Wellness</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 4 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1528181304800-259b08848526?w=600" alt="Thailand">
+                        <span class="region-tag">Asia</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Thailand Adventure</h3>
+                        <p class="country">Thailand</p>
+                        <p class="description">Vibrant culture, stunning islands, and incredible street food across the Land of Smiles.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $999</span>
+                            <span class="duration">7-14 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🏝️ Islands</span>
+                            <span>🍜 Food</span>
+                            <span>🐘 Adventure</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 5 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600" alt="Paris, France">
+                        <span class="region-tag">Europe</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>City of Light Experience</h3>
+                        <p class="country">France</p>
+                        <p class="description">World-class art, gourmet dining, and iconic landmarks in the most romantic city on Earth.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $1,699</span>
+                            <span class="duration">5-7 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🏛️ Landmarks</span>
+                            <span>🍷 Wine</span>
+                            <span>🖼️ Art</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 6 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=600" alt="Rome & Tuscany, Italy">
+                        <span class="region-tag">Europe</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Italian Dreams</h3>
+                        <p class="country">Italy</p>
+                        <p class="description">Ancient ruins, Renaissance art, and world-renowned cuisine through Italy's most iconic regions.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $2,299</span>
+                            <span class="duration">10-14 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🍝 Cuisine</span>
+                            <span>🏛️ History</span>
+                            <span>🍷 Wine Tours</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 7 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=600" alt="Santorini, Greece">
+                        <span class="region-tag">Europe</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Mediterranean Magic</h3>
+                        <p class="country">Greece</p>
+                        <p class="description">Stunning sunsets, crystal seas, and white-washed villages on the iconic Greek island.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $1,899</span>
+                            <span class="duration">6-8 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🌅 Sunsets</span>
+                            <span>🏖️ Beaches</span>
+                            <span>⚓ Sailing</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 8 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1531761535209-180857e963b9?w=600" alt="Patagonia, Chile">
+                        <span class="region-tag">Americas</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Wild Patagonia Adventure</h3>
+                        <p class="country">Chile</p>
+                        <p class="description">Dramatic glaciers, towering peaks, and untouched wilderness in South America's adventure capital.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $3,199</span>
+                            <span class="duration">10-14 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🏔️ Trekking</span>
+                            <span>🧊 Glaciers</span>
+                            <span>🦌 Wildlife</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 9 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?w=600" alt="Machu Picchu, Peru">
+                        <span class="region-tag">Americas</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ancient Inca Explorer</h3>
+                        <p class="country">Peru</p>
+                        <p class="description">Mysterious ruins, vibrant markets, and breathtaking mountain landscapes in Peru.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $1,799</span>
+                            <span class="duration">8-12 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🏛️ Ruins</span>
+                            <span>🥾 Trekking</span>
+                            <span>🦙 Culture</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 10 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=600" alt="Costa Rica">
+                        <span class="region-tag">Americas</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pura Vida Adventure</h3>
+                        <p class="country">Costa Rica</p>
+                        <p class="description">Rainforests, volcanoes, and adventure activities in the eco-tourism capital of Central America.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $1,499</span>
+                            <span class="duration">7-10 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🌋 Volcanoes</span>
+                            <span>🦜 Wildlife</span>
+                            <span>🏄 Adventure</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 11 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600" alt="Serengeti, Tanzania">
+                        <span class="region-tag">Africa</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Ultimate Safari Experience</h3>
+                        <p class="country">Tanzania</p>
+                        <p class="description">Witness the Great Migration and Africa's Big Five in luxury tented camps.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $3,999</span>
+                            <span class="duration">8-12 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🦁 Safari</span>
+                            <span>🐘 Wildlife</span>
+                            <span>🌅 Sunsets</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+
+                <!-- Destination 12 -->
+                <div class="full-destination-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600" alt="Dubai, UAE">
+                        <span class="region-tag">Middle East</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Luxury in the Desert</h3>
+                        <p class="country">UAE</p>
+                        <p class="description">Futuristic architecture, luxury shopping, and desert adventures in the Gulf's gem.</p>
+                        <div class="destination-meta">
+                            <span class="price">From $1,599</span>
+                            <span class="duration">5-7 days</span>
+                        </div>
+                        <div class="destination-highlights">
+                            <span>🛒 Shopping</span>
+                            <span>🏙️ Skyline</span>
+                            <span>🐪 Desert</span>
+                        </div>
+                        <a href="packages.html" class="btn-view-package">View Packages</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <span class="active">1</span>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">→</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-small">
+        <div class="container">
+            <h2>Can't Find Your Dream Destination?</h2>
+            <p>Contact us and we'll create a custom itinerary just for you</p>
+            <a href="contact.html" class="btn-primary">Request Custom Trip</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">Neo<span>Travel</span></a>
+                    <p>Creating unforgettable travel experiences since 2009. Your trusted partner for adventure, relaxation, and exploration.</p>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Pinterest</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-links-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-column">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-column">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li><span>📧</span> neotravels98@gmail.com</li>
+                        <li><span>📞</span> +1 (555) 123-4567</li>
+                        <li><span>📍</span> 123 Travel Avenue, Adventure City</li>
+                        <li><span>🕐</span> Mon-Fri: 9AM-6PM, Sat: 10AM-4PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Neo Travel. All rights reserved.</p>
+                <div class="payment-methods">
+                    <span>💳</span>
+                    <span>💳</span>
+                    <span>💳</span>
+                    <span>💳</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
